@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Toán Đơn Hàng Nông Nghiệp</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-wrapper">
+            <div class="logo"><i class="fas fa-leaf"></i> AgriTech Cầm Tay</div>
+            <nav class="nav-menu">
+                <a href="index.html">Trang Chủ</a>
+                <a href="products.html">Sản Phẩm</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="padding: 40px 20px; max-width: 700px;">
+        <h1 style="color: var(--primary); margin-bottom: 25px; text-align: center;">Thông Tin Thanh Toán</h1>
+        <form style="background: #fff; padding: 30px; border-radius: 16px; border: 1px solid #f1f5f9;" onsubmit="alert('Đặt hàng thành công!'); event.preventDefault(); window.location.href='index.html';">
+            <div style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: bold;">Họ và tên người nhận</label>
+                <input type="text" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 8px;" placeholder="Nguyễn Văn A">
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: bold;">Số điện thoại</label>
+                <input type="tel" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 8px;" placeholder="0901234567">
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: bold;">Địa chỉ nhận hàng</label>
+                <textarea required style="width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 8px; height: 90px;" placeholder="Số nhà, tên đường, xã/phường, tỉnh/thành phố"></textarea>
+            </div>
+            <button type="submit" class="btn-main" style="width: 100%; text-align: center; border: none; cursor: pointer; font-size: 16px;">Hoàn Tất Đặt Hàng</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Giao Diện Nông Nghiệp Thương Mại Điện Tử.</p>
+        </div>
+    </footer>
+</body>
+</html>

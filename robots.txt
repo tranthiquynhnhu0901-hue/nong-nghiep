@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agritech-camtay.netlify.app/sitemap/sitemap.xml
